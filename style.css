@@ -117,7 +117,7 @@ input::placeholder{
   position: absolute;
   width: auto;
   padding: 16px;
-  margin-top: 80px;
+  margin-top: 20px;
   color: white;
   font-size: 24px;
   border-radius: 0px 7px 7px 0px;
@@ -162,5 +162,12 @@ input::placeholder{
     .btn {
       
     width: 25%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .prev, .next {
+      
+    
     }
   }
