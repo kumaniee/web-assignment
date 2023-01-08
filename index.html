@@ -81,9 +81,9 @@ function showSlides(n) {
 <body class = "html">
     <nav>
         <div id="navdiv">
-        <img id="logo" src="./Images/B Logo.png">
+        <img id="logo" src="./Images/B Logo.png" alt="Logo">
         <p id="title">Betting.com</p>
-        <a class="nav" class="active" href="./index.html">Home</a>
+        <a class="nav" href="./index.html">Home</a>
             <a class="nav" href="./register.html">Register </a>
             <a class="nav" href="./games.html">Games</a>
             <a class="nav" href="./about.html">About us</a>
@@ -101,9 +101,7 @@ function showSlides(n) {
              non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
         
-        <a href="./about.html">
-        <input class="btn" id="aboutus" type="submit" value="About us">
-        </a>
+        <input onclick="window.location.href = 'about.html';" class="btn" id="aboutus" type="submit" value="About us">
 
         <br>
         <br>
@@ -114,15 +112,15 @@ function showSlides(n) {
         <div class="carousel">
 
             <div class="slides fade">
-              <img id= "car"  src="./Images/Book of Dead Max.png" style="width:100%">
+              <img class= "car"  src="./Images/BookofDeadMax.png" style="width:100%" alt="Book of Dead">
             </div>
             
             <div class="slides fade">
-              <img id= "car" src="https://images.ctfassets.net/vpd5gtrb1dbp/6ovsCA1WzZiY8AnSOztnX9/0df6eb92f8c0b45549f1b7cfd46c72ad/bethard-3.jpg" style="width:100%">
+              <img class= "car" src="https://images.ctfassets.net/vpd5gtrb1dbp/6ovsCA1WzZiY8AnSOztnX9/0df6eb92f8c0b45549f1b7cfd46c72ad/bethard-3.jpg" style="width:100%" alt="Starburst">
             </div>
             
             <div class="slides fade">
-              <img id= "car" src="https://www.johnslots.com/en/wp-content/uploads/sites/5/2019/12/JS07-LegacyOfDead-screenshot-image.jpg" style="width:100%">
+              <img class= "car" src="https://www.johnslots.com/en/wp-content/uploads/sites/5/2019/12/JS07-LegacyOfDead-screenshot-image.jpg" style="width:100%" alt="Legacy of Dead">
             </div>
             
             <a class="prev" onclick="addSlides(-1)">❮</a>
@@ -134,43 +132,43 @@ function showSlides(n) {
         <h1>Start Playing!</h1>
 
         <a onclick="BookofDead()">
-        <img class="game" src="./Images/Book of Dead.png">
+        <img class="game" src="./Images/Book of Dead.png" alt="Book of dead">
         </a>
 
         <a onclick="Starburst()">
-        <img class="game" src="./Images/Starburst.png" >
+        <img class="game" src="./Images/Starburst.png" alt="Starburst">
         </a>
 
         <a onclick="Legacy()">
-        <img class="game" src="./Images/Legacy of Dead.png">
+        <img class="game" src="./Images/Legacy of Dead.png" alt="Legacy of Dead">
         </a>
 
         <br>
 
         <a onclick="StarXXX()">
-        <img class="game" src="./Images/StarburstXXX.png">
+        <img class="game" src="./Images/StarburstXXX.png" alt="StarburstXXX">
         </a>
 
         <a onclick="Sweet()">
-        <img class="game" src="./Images/SweetBonanza.png">
+        <img class="game" src="./Images/SweetBonanza.png" alt="Sweet Bonanza">
         </a>
 
         <a onclick="Fallen()">
-        <img class="game" src="./Images/Book of the Fallen.png">
+        <img class="game" src="./Images/Book of the Fallen.png" alt="Book of the Fallen">
         </a>
 
         <br>
 
         <a onclick="Buffalo()">
-        <img class="game" src="./Images/Buffalo Blitz.png">
+        <img class="game" src="./Images/Buffalo Blitz.png" alt="Buffalo Blitz">
         </a>
 
         <a onclick="Aviator()">
-        <img class="game" src="./Images/Aviator.png">
+        <img class="game" src="./Images/Aviator.png" alt="Aviator">
         </a>
 
         <a onclick="Gonzo()">
-        <img class="game" src="./Images/Gonzos Quest.png">
+        <img class="game" src="./Images/Gonzos Quest.png" alt="Gonzo's Quest">
         </a>
 
             <br>
@@ -180,10 +178,8 @@ function showSlides(n) {
             <br>
             Register Today!
         </h1>
-
-        <a href="./register.html">
-        <input class="btn" id="b1" type="submit" value="Register">
-        </a>
+        
+        <input onclick="window.location.href = 'register.html';" class="btn" id="b1" type="submit" value="Register">
     </article>
 </body>
 </html>

@@ -84,6 +84,10 @@ input::placeholder{
     width: 26%;
 }
 
+#solo1{
+  width: 26%;
+}
+
 #b1{
     background-color: white;
     color: #67B173;
@@ -102,7 +106,7 @@ input::placeholder{
     display: none
 }
 
-#car {
+.car {
     vertical-align: middle;
 }
 
